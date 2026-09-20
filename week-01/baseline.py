@@ -8,7 +8,7 @@ def summarize_scores(scores):
 def classify_scores(score):
     if score >= 80:
         return "excellent"
-    elif scores >= 65 and scores <= 79:
+    elif score >= 65 and score <= 79:
         return "good"
     else:
         return "needs improvement"
@@ -22,3 +22,5 @@ for score in scores:
 unique_scores = set(scores)
 print("Unique numbers: ", unique_scores)
 print("Score counts: ", scores_counts)
+
+    
